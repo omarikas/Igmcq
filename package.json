@@ -1,0 +1,22 @@
+{
+  "name": "igmcq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "watch": "tsc --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/express": "^5.0.0",
+    "@types/pdfjs-dist": "^2.10.377",
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "pdf-dist": "^1.0.0",
+    "pdfjs-dist": "^4.9.155"
+  }
+}
